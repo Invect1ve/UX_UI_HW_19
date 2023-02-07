@@ -12,6 +12,7 @@
 }
 
 body {
+  background-image: url("..\Images\Background_Image.jpg");
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
@@ -69,9 +70,7 @@ footer li {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  /* width: 33% 33% 33%;
-  margin: 0 auto;
-  padding: 20px; */
+  padding: 60px 30px;
 }
 
 .flexContainer img {
