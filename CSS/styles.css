@@ -1,16 +1,36 @@
-.content {
-  max-width: 300px;
-  margin: 0 auto;
-  padding: 50px;
-  background-color: #FFFFFF;
-  text-align: center;
+/* Header */
+.mainNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.topNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+header {
+  background-color: #46DFE9;
+  Height: 150px;
+  margin-bottom: 20px;
+}
+header img {
+  height: 150px;
+  width:200px;
+}
+header ul {
+  color: black;
+  font-size: 16pt;
 }
 
-.content img {
-  max-width: 300px;
-  max-height:300px;
-}
 
+/* Body */
 body {
   background-image: url("..\Images\Background_Image.jpg");
   background-color: black;
@@ -18,44 +38,20 @@ body {
   background-repeat: no-repeat;
   margin: 0;
 }
-.mainNav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
 
-.topNav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 40px;
-  width: 80%;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: nowrap;
-}
 
-header {
-  background-color: #46DFE9;
-  Height: 186px;
+/* Hero Image */
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #FFFFFF;
+  text-align: center;
 }
-header ul {
-  color: black;
+.content img {
+  max-width: 300px;
+  max-height:300px;
 }
-
-footer ul {
-  color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  list-style: none;
-}
-
-footer li {
-  padding: 0px 7px;
-}
-
 .content button {
   padding: 15px;
   background-color: #373738;
@@ -65,32 +61,32 @@ footer li {
 }
 
 
+/* My Skills */
 .flexContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   padding: 60px 30px;
+  border: 1pt solid white;
 }
-
 .flexContainer img {
   width: 100px;
   height: 100px;
 }  
-
 .flexContainer p {
   color: white;
 }
-
 .mySkills h1 {
   display: flex;
   justify-content: center;
-}
-
-
-h1 {
   color: white;
+  border-top: 1pt solid white;
+  padding-top: 20px;
 }
+
+
+/* Misc */
 h3 {
   color: white;
 }
@@ -98,15 +94,19 @@ h4 {
   color: white;
 }
 
-.myWork p {
+
+/* My Work */
+.myWork h1 {
   color: white;
 }
 
+.myWork p {
+  color: white;
+}
 .myWork h1 {
   display: flex;
   justify-content: center;
 }
-
 .workGrid button {
   padding: 15px;
   background-color: white;
@@ -114,19 +114,35 @@ h4 {
   font-size: 15px;
   border-radius: 4px;
 }
-
 .workGrid img {
   width: 400px;
   height: 200px;
 }
-
 .workGrid {
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: 50% 50%;
+  border: 1pt solid white;
 }
-
-.myWork h3 {
+.myWork button {
   display: flex;
   justify-content: center;
+  padding: 15px;
+  background-color: white;
+  color: grey;
+  font-size: 15px;
+  border-radius: 4px;
+}
+
+
+/* Footer */
+footer ul {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+}
+footer li {
+  padding: 0px 7px;
 }
