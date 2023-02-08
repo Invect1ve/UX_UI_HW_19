@@ -29,11 +29,17 @@
         <p> Lorem ipsum dolor sit amet consectetur. Mattis et enim proin commodo. Gravida nunc ac morbi viverra habitasse lobortis mauris. Lorem pharetra sapien egestas aenean. Augue scelerisque ultrices facilisis suspendisse enim sed id mi eget. Condimentum eu sollicitudin tellus nibh ac. Vitae risus massa amet porta enim mollis nam nisl. Magna volutpat sed faucibus praesent nisl vestibulum risus tortor. Pharetra amet auctor arcu interdum. Ultricies lacinia dictum sit habitasse interdum velit</p>
         <button type="button"> Download Resume </button>
     </div>
-    <button type="button"> Read about my skills </button>
-    <button type="button"> Take a look at my work </button>
+    <div class="buttons">
+        <a href="#skills">
+            <button type="button"> Read about my skills </button>
+        </a>
+        <a href="#work">
+            <button type="button"> Take a look at my work </button>
+        </a>
+    </div>
 </section>
 
-<section class="mySkills">
+<section class="mySkills" id="skills">
     <h1>My UX Skills</h1>
     <div class="flexContainer">
             <div>
@@ -54,7 +60,7 @@
     </div>
 </section>
 
-<section class="myWork">
+<section class="myWork" id="work">
     <h1>My Work</h1>
     <div class="workGrid">
         <div>
@@ -75,7 +81,9 @@
         </div>
     </div>
     <!-- <h3>View All Projects</h3> -->
-    <button type="button"> View All Projects </button>
+    <div class="btnContainer">
+        <button type="button"> View All Projects </button>
+    </div>
 </section>
 
 <div class="credits">
@@ -94,6 +102,8 @@
         <li>Socials</li>
     </ul>
 </footer>
+
+<script src="js\index.js"></script>
 
     </body>
 

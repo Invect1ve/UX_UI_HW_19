@@ -1,3 +1,7 @@
+/* :root {
+  --background_image: url("../Images/Ai picture for discord.JPG")
+} */
+
 /* Header */
 .mainNav {
   display: flex;
@@ -16,7 +20,7 @@
   flex-wrap: nowrap;
 }
 header {
-  background-color: #46DFE9;
+  /* background-color: #46DFE9; */
   Height: 150px;
   margin-bottom: 20px;
 }
@@ -32,12 +36,16 @@ header ul {
 
 /* Body */
 body {
-  background-image: url("..\Images\Background_Image.jpg");
+  background-image: url("../Images/Background_Image.jpg");
   background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
 }
+
+/* .heroImg {
+  background-image: var(--background_image);
+} */
 
 
 /* Hero Image */
@@ -125,13 +133,16 @@ h4 {
   border: 1pt solid white;
 }
 .myWork button {
-  display: flex;
-  justify-content: center;
   padding: 15px;
   background-color: white;
   color: grey;
   font-size: 15px;
   border-radius: 4px;
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 
